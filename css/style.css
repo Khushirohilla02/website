@@ -51,7 +51,8 @@ margin-top:40px;
 .imagegallery{
 display:flex;
 padding-left:10px;
-column-gap:10px;
+column-gap:10px; 
+padding-bottom:100px;
 }
 .upperTextBlack {
 text-transform: uppercase;
@@ -280,4 +281,52 @@ padding-left:50px;
 .bannerimg{
     padding-top: 20px;
 
+
 }
+.reviews {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -150px;
+}
+.reviews img {
+    height: 100px;
+    width: 100px;
+    padding: 0px 10px 0px 30px;
+    border-radius: 100%;
+}
+.r1 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.small {
+    font-size: large;
+    color: rgb(78, 78, 78);
+    padding: 10px 30px 10px 30px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.reviewers {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.reviewers p {
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+
